@@ -1,0 +1,116 @@
+.form{
+    height: 70vh;
+    width: auto;
+    background-color: rgba(164, 164, 186, 0.172);
+    border: 2px solid rgb(245, 242, 242);
+}
+
+.ChildForm{
+    height: 45vh;
+    width: 60%;
+    background-color: rgba(255, 68, 0, 0.982);
+    margin-left: 20%;
+    margin-top: 8%;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 68, 0, 0.849);;
+}
+.fromH1{
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 26px;
+    color: white;
+}
+.formP{
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 1%;
+    color: white;
+}
+.inputOne{
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    border: none;
+}
+.inputTWoDiv{
+    display: flex;
+    flex-direction: row;
+}
+.inputTWo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+height: 150px;
+width: 510px;
+margin-left: 5%;
+
+}
+.inputTWo1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 150px;
+    width: 510px;
+    
+    }
+    .fourInput{
+        margin-top: 3%;
+        border-radius: 10px;
+        width: 100%;
+        height: 40px;
+        margin-left: 0%;
+        border: none;
+    }
+    .submit{
+        margin-top: 0%;
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    border: none;
+    }
+    @media only screen and (max-width: 768px) {
+        .ChildForm {
+            width: 400%; /* Adjusted width for smaller screens */
+            margin-left:10%;
+        }
+        
+    
+        .inputTWo{
+            width: 50%; /* Adjusted width for smaller screens */
+            margin-left: 0%;
+            margin: 5%;
+        }
+        .inputTWo1 {
+            padding: 5%;
+            width: 60%; /* Adjusted width for smaller screens */
+            margin-left: 0%;
+        }
+        .submit{
+            margin-top: -13%;
+        border-radius: 10px;
+        width: 90%;
+        height: 40px;
+        margin-left: 5%;
+        border: none;
+        }
+        .fourInput{
+            margin-top: 11%;
+            border-radius: 10px;
+            width: 100%;
+            height: 30px;
+            margin-left: 0%;
+            border: none;
+        }
+
+        .form{
+            margin-top: 300%;
+            height: 70vh;
+            width: 100%;
+            background-color: rgba(164, 164, 186, 0.172);
+            border: 2px solid rgb(245, 242, 242);
+        }
+    }

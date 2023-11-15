@@ -1,0 +1,153 @@
+.sliderDiv{
+    height: 50%;
+   width: 100%;
+}
+#mainSliderDiv{
+margin-left:25% ;
+height: 75vh;
+width: 50%;
+margin-top: 5%;
+
+}
+.Demo{
+margin-left: 43%;
+margin-top: 6%;
+background-color: orangered;
+height: 45px;
+width: 15%;
+border-radius: 4px;
+border: none;
+}
+.Restaurants{
+    margin-top:-3%;
+    margin-left: 23%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.Make{
+    margin-top:3%;
+    font-size: 18px;
+    margin-left: 22%;
+}
+.More{
+    font-weight: 600;
+
+    font-size: 30px;
+    margin-left: 28%;
+}
+.footer{
+    height: 50vh;
+    width: auto;
+    background-color: #393c4a
+}
+.footerDivOne{
+    width: 60%;
+    margin-left: 20%;
+    height: 40vh;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footerChildOne{
+    margin-top: 2%;
+    height: 330px;
+    width: 250px;
+   
+}
+.footerChildTwo{
+    margin-top: 2%;
+    height: 330px;
+    width: 280px;
+    
+}
+.footerChildThree{
+    margin-top: 2%;
+    height: 330px;
+    width: 250px;
+   
+}
+.footerChildFour{
+    margin-top: 2%;
+    height: 330px;
+    width: 250px;
+   
+}
+.Download{
+    font-size: 17px;
+    color: white;
+}
+.Find{
+    margin: 10px;
+    margin-top: 12%;
+    font-size: 14px;
+    color: white;
+}
+.playStore{
+    color: white;
+    font-size: 15px;
+}
+@media only screen and (max-width: 1080px) {
+    .footer{
+        margin-top: 0%;
+        height: 100vh;
+        width: 400%;
+        background-color: #393c4a
+    }
+
+    .footerDivOne{
+        width: 60%;
+        margin-left: 5%;
+        height: 100vh;
+       
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   
+}
+/* ///////////////////////////////////////////////////// */
+@media (max-width: 1080px){
+    .sliderDiv{
+       height: 150px;
+       width: 50%;
+    }
+    #mainSliderDiv{
+        /* margin-left:25% ; */
+        height: 20%;
+        width: 350%;
+        margin-top: 5%;
+        
+        }
+        .Restaurants{
+            margin-top:3%;
+            margin-left: 8%;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .Make{
+            margin-top:5%;
+            font-size: 13px;
+            margin-left: 5%;
+            font-weight: 400;
+        }
+        .More{
+            margin-top:5%;
+            margin-left: 17%;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .Demo{
+            margin-left: 33%;
+            margin-top: 20%;
+            background-color: orangered;
+            height: 40px;
+            width: 40%;
+            border-radius: 4px;
+            border: none;
+            }
+}
+/* /////////////////////////////////////////////////////////////////// */

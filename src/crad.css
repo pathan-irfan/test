@@ -1,0 +1,156 @@
+.cardName{
+    height: 80vh;
+   background-color: aquamarine;
+    width: 60%;
+    margin-left: 20%;
+   
+}
+.secondDIVV{
+  height: 80vh;
+  width: 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+.gggg{
+  box-shadow: 2px 2px 30px  grey;
+  border-radius: 10px ;
+  height: 600px;
+  width: 30%;
+  margin-left: 3%;
+  margin-top:1%;
+  background-color: white;
+}
+.gggg1{
+  box-shadow: 2px 2px 30px  grey;
+  border-radius: 10px ;
+
+  margin-top:-52%;
+  height: 600px;
+    background-color: white;
+  width: 30%;
+  margin-left: 34%;
+  
+}
+.gggg2{
+  box-shadow: 2px 2px 30px  grey;
+  border-radius: 10px ;
+  margin-top:-52%;
+
+  height: 600px;
+    background-color: white;
+  width: 30%;
+  margin-left: 65%;
+}
+.Apublic{
+font-size: 17px;
+margin: 14%;
+}
+.circal{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 32%;
+  box-shadow: 2px 2px 30px  grey;
+  background-color: white;
+}
+.circal1{
+  position: sticky;
+  margin-top: 20%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 32%;
+  box-shadow: 2px 2px 30px  grey;
+  background-color: white;
+}
+.icon{
+  color:orangered;
+  font-size:50px;
+  margin-left:40%;
+}
+.img1{
+  height:100px;
+  border-radius:50%;
+  margin-left:-15px
+
+}
+@media only screen and (max-width: 768px) {
+  .secondDIVV{
+    height: 70vh;
+    width: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+  }
+  .cardName {
+    height: 40vh;
+    width: 400%;
+    margin-left: 10%;
+  }
+  .gggg{
+    position: relative;
+    box-shadow: 2px 2px 30px  grey;
+    border-radius: 10px ;
+    height: 400px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top:1%;
+    background-color: white;
+  }
+  .gggg1{
+    position: relative;
+
+    box-shadow: 2px 2px 30px  grey;
+    border-radius: 10px ;
+  
+    margin-top:-100%;
+    height: 400px;
+      background-color: white;
+      width: 100%;
+    margin-left: 0%;
+    
+  }
+  .gggg2{
+    position: relative;
+
+    box-shadow: 2px 2px 30px  grey;
+    border-radius: 10px ;
+    margin-top:-100%;
+  
+    height: 500px;
+      background-color: white;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .Apublic{
+    font-size: 17px;
+    margin: 14%;
+    }
+    .circal1{
+      position: sticky;
+      margin-top: -2%;
+      height: 100px;
+      width: 100px;
+      border-radius: 100%;
+      margin-left: -18%;
+      background-color: white;
+    }
+
+    .img1{
+      height:100px;
+      border-radius:50%;
+      margin-left:0px
+    
+    }
+
+    .circal1{
+      position: sticky;
+      margin-top: 19%;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      margin-left: 25%;
+      background-color: white;
+    }
+}
